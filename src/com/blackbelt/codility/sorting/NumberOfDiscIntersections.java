@@ -42,6 +42,12 @@ package com.blackbelt.codility.sorting;
  */
 public class NumberOfDiscIntersections {
 
+    public static O O;
+
+    public static class O {
+        public static  int x = 1;
+    }
+
     public static final int MAX_INTERSECTIONS = 10000000;
 
     private void heapify(long a[], int index, int size) {
